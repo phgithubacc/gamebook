@@ -1,4 +1,4 @@
-const Subcore = require('../../__concept/Subcore')
+const Subcore = require('../../__principle/Subcore')
 class Service extends Subcore{
     constructor() {
         super()

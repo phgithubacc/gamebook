@@ -1,6 +1,6 @@
-class RootType{
+class ArcheType {
     constructor(extensionType) {
-        this._datatype = 'root'
+        this._datatype = 'arche'
         this._delimeter = '_@_'
 
         this.addExtension(extensionType)
@@ -22,4 +22,4 @@ class RootType{
     }
 }
 
-module.exports = RootType
+module.exports = ArcheType

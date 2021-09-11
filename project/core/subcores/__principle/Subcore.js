@@ -1,4 +1,4 @@
-const RootType = require('../../__concept/RootType')
+const RootType = require('../../__principle/ArcheType')
 class Subcore extends RootType{
 
     constructor() {
