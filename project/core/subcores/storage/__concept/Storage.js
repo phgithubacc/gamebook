@@ -1,8 +1,8 @@
-const Subcore = require('../../Subcore')
+const Subcore = require('../../__concept/Subcore')
 class Storage extends Subcore{
     constructor() {
         super()
-        this._datatype = this._datatype + '@Storage'
+        this.addExtension('Storage')
     }
 }
 

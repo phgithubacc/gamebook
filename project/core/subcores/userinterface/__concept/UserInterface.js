@@ -1,8 +1,8 @@
-const Subcore = require('../../Subcore')
+const Subcore = require('../../__concept/Subcore')
 class UserInterface extends Subcore{
     constructor() {
         super()
-        this._datatype = this._datatype + '@UserInterface'
+        this.addExtension('UserInterface')
     }
 }
 

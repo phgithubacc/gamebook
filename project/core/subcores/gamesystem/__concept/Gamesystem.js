@@ -1,8 +1,8 @@
-const Subcore = require('../../Subcore')
+const Subcore = require('../../__concept/Subcore')
 class Gamesystem extends Subcore{
     constructor() {
         super()
-        this._datatype = this._datatype + '@Gamesystem'
+        this.addExtension('Gamesystem')
     }
 }
 
