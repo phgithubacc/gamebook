@@ -1,8 +1,8 @@
 const ArcheType = require('../core/__principle/ArcheType')
 const Subcore = require('../core/subcores/__principle/Subcore')
 
-const Book = require('../core/subcores/AbstractConcept/__principle/AbstractConcept')
-const Gamesystem = require('../core/subcores/ConcreteConcept/__principle/ConcreteConcept')
+const Book = require('../core/subcores/abstractConcept/__principle/AbstractConcept')
+const Gamesystem = require('../core/subcores/concreteConcept/__principle/ConcreteConcept')
 const Service = require('../core/subcores/service/__principle/Service')
 const Storage = require('../core/subcores/storage/__principle/Storage')
 const UserInterface = require('../core/subcores/userinterface/__principle/UserInterface')
